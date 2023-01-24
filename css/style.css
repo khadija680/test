@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+/****start statistic*********/
+* {
+    padding: 0;
+    margin: 0;
+}
+.statistic {
+    background-image: url(../images/pngtree-technical-abstract-technology-background-with-geometric-shape-image_430549.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.statistic .content {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 200px;
+    color: white;
+    padding-top: 100px;
+}
+.content .row {
+    font-size: 25px;
+    padding-left: 20px;
+    font-weight: 200;
+    width: 100%;
+}
+.content .row h2 {
+    font-size: 50px;
+}
+/*****end statistic*****/
+/******start template*****/
+.template {
+    background-color: white;
+    padding-top: 30px;
+    display: inline-flexbox;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/*******end template******/
+/********start features******/
+.features {
+    background-image: url(../images/360_F_288803822_0CJ8L3gr6w6nGnUeje6pCllCX7s986xz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+}
+.container {
+    display: flex;
+    margin-top: 20px;
+    padding: 30px;
+    margin-bottom: 40px;
+
+}
+.container .feature {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.555);
+    width: 25%;
+    margin: 10px;
+    padding-bottom: 40px;
+    height: 280px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+}
+.container .feature:hover {
+    box-shadow: 3px 3px 3px rgb(220, 14, 220);
+    transform: translateX(3px);
+    background-color: rgb(53, 18, 227);
+}
+
+.container .feature i {
+    padding: 20px;
+    font-size: 80px;
+    color: #eee;
+    
+}
+.container .feature h3 {
+    font-size: 50px;
+}
+.feature p {
+    font-size: 20px;
+}
+/******end features******/
